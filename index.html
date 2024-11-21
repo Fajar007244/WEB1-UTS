@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>283 Production - Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="card shadow">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column align-items-center">
+                    <div class="image-container">
+                        <img src="assets/img/logo/800px-283Pro_Logo.png" alt="283 Production Logo" class="img-fluid mb-3">
+                        <p class="text-center">Welcome to 283 Production website!</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-center">Login</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" id="username" placeholder="Enter your username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                        </div>
+                        <div class="d-flex justify-content-between mt-3">
+                            <button type="button" class="custom-button short" onclick="login()">Login</button>
+                            <button type="button" class="custom-button long" onclick="window.location.href='pages/register.html'">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-4">
+        <p>&copy; by 22552011062_Muhammad Fajar Maulana Firdaus</p>
+    </footer>
+
+    <script src="js/script.js"></script> 
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles_page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" style="color: black;">
+                    <div style="background-color: white; display: inline-block; padding: 5px; border-radius: 5px;">
+                        <img src="../assets/img/logo/800px-283Pro_Logo.png" alt="Logo" style="height: 40px;">
+                    </div>
+                    <span style="margin-left: 10px; color: white;">283 PRODUCTION</span>
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="main_page.html" style="color: white;">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="idol_groups.html" style="color: white;">Idol Groups</a></li>
+                        <li class="nav-item"><a class="nav-link" href="profile.html" style="color: white;">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-4">
+        <div class="tv-container">
+            <div class="tv-screen">
+                <div id="mainBanner" class="carousel slide tv-effect" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../assets/img/banner/banner1.jpg" class="d-block w-100" alt="Banner 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Latest Updates</h5>
+                                <p>Check out our latest events and promotions!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/img/banner/banner2.jpg" class="d-block w-100" alt="Banner 2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Featured Idol Groups</h5>
+                                <p>Discover your favorite idol groups!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#mainBanner" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#mainBanner" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4 mt-4">
+            <div class="card-body text-center">
+                <h2 class="mt-4">Featured Idol Groups</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="custom-card illumination-stars">
+                            <img src="../assets/img/logo/Illumination_STARS_Logo.png" class="card-img-top" alt="Idol Group 1">
+                            <div class="card-details">
+                                <p class="text-title">illumination STARS</p>
+                                <p class="text-body">"Infinite Possibilities, Shining in Their Eyes"</p>
+                                <button class="card-button illumination-button" onclick="window.location.href='illumination.html'">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="custom-card straylight">
+                            <img src="../assets/img/logo/Straylight_Logo.png" class="card-img-top" alt="Idol Group 2">
+                            <div class="card-details">
+                                <p class="text-title">Straylight</p>
+                                <p class="text-body">"Clad in Straylight, These Girls Become Idols"</p>
+                                <button class="card-button straylight-button" onclick="window.location.href='straylight.html'">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="custom-card sshis">
+                            <img src="../assets/img/logo/SHHis_Unit_logo.png" class="card-img-top" alt="Idol Group 3">
+                            <div class="card-details">
+                                <p class="text-title">SSHis</p>
+                                <p class="text-body">"Shining, sequin chandelier"</p>
+                                <button class="card-button sshis-button" onclick="window.location.href='sshis.html'">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="mt-4">Recent News</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card news-card mb-3">
+                            <img src="../assets/img/news/ECHOES_07.jpg" class="card-img-top" alt="New Album Release">
+                            <div class="card-body">
+                                <h5 class="card-title">New Album Release</h5>
+                                <p class="card-text">New Album Release from SSHis</p>
+                                <a href="news1.html" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card news-card mb-3">
+                            <img src="../assets/img/news/ShinyColors7thLIVETOUREnkan.png" class="card-img-top" alt="Upcoming Concerts">
+                            <div class="card-body">
+                                <h5 class="card-title">Upcoming Concerts</h5>
+                                <p class="card-text">Upcoming Live Concert Tour</p>
+                                <a href="news2.html" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card news-card mb-3">
+                            <img src="../assets/img/news/Halloween_Album_Happy_Surprise_Trick!-CDCover.jpg" class="card-img-top" alt="Award Winner">
+                            <div class="card-body">
+                                <h5 class="card-title">New Album Release</h5>
+                                <p class="card-text">New Album "Happy Surprise Trick!"</p>
+                                <a href="news3.html" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="mt-4">Upcoming Events</h2>
+                <div class="background-card">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <h3>Mahjong Soul X Idolm@ster Shiny Colors Collaboration</h3>
+                            <p>THE IDOLM@STER SHINY COLORS × Mahjong Soul Collab Confirmation!</p>
+                            <p>Stay tuned for more details to come.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="../assets/img/event.jpg" class="img-fluid rounded" alt="Summer Festival">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="mt-4">Music Video Previews</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Latest Music Video</h5>
+                        <div class="tv-container">
+                            <div class="tv-screen">
+                                <div class="video-container tv-effect">
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/klcdWCO-GGc" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Featured Music Video</h5>
+                        <div class="tv-container">
+                            <div class="tv-screen">
+                                <div class="video-container tv-effect">
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/1V0_81XYS8M" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <p>&copy; by 22552011062_Muhammad Fajar Maulana Firdaus</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

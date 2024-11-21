@@ -1,0 +1,67 @@
+header {
+    background-color: black; 
+    color: white;
+}
+
+.card {
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 30px; /* Adjust this value as needed */
+}
+
+.navbar-nav .nav-item {
+    margin-left: 50px; /* Adjust the value as needed for spacing */
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Ensure text is white */
+    text-decoration: none; /* Remove default underline */
+    position: relative; /* Position for pseudo-element */
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: none; /* Ensure no default underline on hover */
+}
+
+.navbar-nav .nav-link::after {
+    content: ''; /* Create a pseudo-element */
+    display: block; /* Make it a block element */
+    height: 2px; /* Height of the underline */
+    background: white; /* Color of the underline */
+    width: 0; /* Start with width 0 */
+    transition: width 0.3s; /* Smooth transition */
+    position: absolute; /* Position it absolutely */
+    left: 0; /* Align to the left */
+    bottom: -5px; /* Position it below the text */
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%; /* Expand to full width on hover */
+}
+
+body {
+    background-image: url('../assets/img/background/283_Production_Interior_President\'s_Office_Day.png'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    font-family: Arial, sans-serif; /* Change font for better readability */
+    text-align: justify;
+}
+
+h1 {
+    font-size: 2.5rem; /* Larger header */
+    margin-bottom: 20px; /* Space below header */
+}
+
+p {
+    font-size: 1rem; /* Standard paragraph size */
+    line-height: 1.5; /* Better line spacing */
+}
+
+footer {
+    background-color: #000000; 
+    color: white;
+    padding: 10px; /* Padding */
+    text-align: center; /* Center text */
+}

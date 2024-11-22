@@ -61,5 +61,5 @@ function registerUser() {
     localStorage.setItem('registeredUsers', JSON.stringify(registeredUsers));
 
     alert("Registration successful! Please login with your new account.");
-    window.location.href = "login.html";
+    window.location.href = "../index.html";
 }
